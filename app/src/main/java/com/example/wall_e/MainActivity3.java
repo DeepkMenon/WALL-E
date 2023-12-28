@@ -155,7 +155,7 @@ public class MainActivity3 extends AppCompatActivity {
         RequestBody requestBody = RequestBody.create(jsonBody.toString(),JSON);
         Request request = new Request.Builder()
                 .url("https://api.openai.com/v1/images/generations")
-                .header("Authorization","Bearer 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")
+                .header("Authorization","Bearer YOUR OpenAI API Key")
                 .post(requestBody)
                 .build();
 
